@@ -6,7 +6,10 @@ module.exports = {
     '\\.css$': require.resolve('./test/style-mock.js'),
   },
   //after Jest is loaded
-  setupFilesAfterEnv: [require.resolve('./test/setup-tests.js')],
+  setupFilesAfterEnv: [
+    require.resolve('./test/setup-tests.js'),
+    '@testing-library/react/cleanup-after-each',
+  ],
   collectCoverageFrom: ['**/src/**/*.js'],
   /* TURN ON AND SET FOR COVERAGE CONTROL !! */
   // coverageThreshold: {
