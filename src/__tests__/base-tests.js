@@ -11,5 +11,5 @@ test('it renders App', () => {
   to log the DOM at the point the debug is ran. Perfect for seeing
   what the DOM looks like before your assertions. */
   debug();
-  expect(app).toBeDefined();
+  expect(app).toBeInTheDocument();
 });
