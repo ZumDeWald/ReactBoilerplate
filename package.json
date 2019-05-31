@@ -4,7 +4,7 @@
   "description": "boilerplate for react",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"

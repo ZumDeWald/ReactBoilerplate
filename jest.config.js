@@ -6,4 +6,5 @@ module.exports = {
   },
   //after Jest is loaded
   setupFilesAfterEnv: [require.resolve('./test/setup-tests.js')],
+  collectCoverageFrom: ['**/src/**/*.js'],
 };
