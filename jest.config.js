@@ -1,4 +1,5 @@
 module.exports = {
+  displayName: 'dom',
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
     //Allows load and test of CSS files in Node with Jest
