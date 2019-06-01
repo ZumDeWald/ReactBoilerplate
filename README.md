@@ -3,6 +3,11 @@
 Boiler for basic React Apps. Not strapped with CRA. <br> Built to better
 incorporate testing from the start of a project.
 
+#### Much of this project came from these two sources:
+
+1. [Medium article on how to build a React App with Babel and Webpack 4 -- by Sukhjinder Arora](https://hackernoon.com/how-to-build-a-react-project-from-scratch-using-webpack-4-and-babel-56d4a26afd32)
+2. [TestingJavaScript.com -- by Kent C. Dodds](https://testingjavascript.com/)
+
 ### Dev Dependencies
 
 - [Husky](https://www.npmjs.com/package/husky)
