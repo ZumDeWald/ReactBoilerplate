@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
+import {hot} from 'react-hot-loader/root';
 
 import '../styles/App.css';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div title='app-container'>
@@ -11,3 +12,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default hot(App);
